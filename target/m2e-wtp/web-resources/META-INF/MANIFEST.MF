@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: kshit
+Build-Jdk: 13.0.1
+Implementation-Title: resturant-service
+Implementation-Version: 2.0.0.RELEASE
+Implementation-Vendor-Id: org.springframework.boot
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/resturant-service
+Created-By: Maven Integration for Eclipse
+
