@@ -5,7 +5,7 @@
 <!-- comment Anusha-Comments NCB-->
 
 	<artifactId>resturant-service</artifactId>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>resturant-service</name>
 	<description>Resturant project for Spring Boot</description>
