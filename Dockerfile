@@ -1,12 +1,12 @@
 FROM maven:latest AS build
-WORKDIR /app
-COPY . /app
+WORKDIR /app9
+COPY . /app9
 RUN mvn clean package 
 
  
 
 FROM openjdk:12-alpine
-WORKDIR /app2
-COPY --from=build /app/target/ncbcustomer-app-service.war /app2
-ENTRYPOINT ["java","-jar","ncbcustomer-app-service.war"]
+WORKDIR /app8
+COPY --from=build /app9/target/ncbcustomer-app-service.jar /app8
+ENTRYPOINT ["java","-jar","ncbcustomer-app-service.jar"]
 
